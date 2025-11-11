@@ -5,10 +5,10 @@
       href="https://fonts.googleapis.com/css?family=Alumni Sans"
       rel="stylesheet"
     />
-    <script src="app.js" defer></script>
+    <script src="/static/app.js" defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="/static/app.css" />
     <title>NBA Game Predictor</title>
   </head>
 
@@ -17,8 +17,8 @@
       <h1>NBA Game Predictor</h1>
       <div class="teams">
         <div class="team">
-          <p>Team 1</p>
-          <select id="team1">
+          <p>Home Team</p>
+          <select id="home-team">
             <option>Atlanta Hawks</option>
             <option>Boston Celtics</option>
             <option>Brooklyn Nets</option>
@@ -53,8 +53,8 @@
         </div>
 
         <div class="team">
-          <p>Team 2</p>
-          <select id="team2">
+          <p>Away Team</p>
+          <select id="away-team">
             <option>Atlanta Hawks</option>
             <option>Boston Celtics</option>
             <option>Brooklyn Nets</option>
@@ -90,6 +90,7 @@
       </div>
 
       <button id="submit-button">Submit</button>
+      <p id="result">No result yet</p>
     </div>
   </body>
 </html>
